@@ -29,7 +29,7 @@ using namespace std;
 
 
 
-//递归与动态规划
+//动态规划
 int min3(int a, int b, int c) {
 	a = a < b ? a : b;
 	return a < c ? a : c;
